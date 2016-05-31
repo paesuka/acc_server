@@ -21,6 +21,11 @@ if (config.seedDB) { require('./config/seed'); }
 
 // Setup server
 var app = express();
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 var server = http.createServer(app);
 require('./config/express')(app);
 require('./routes')(app);
