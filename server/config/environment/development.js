@@ -4,9 +4,9 @@
 // ==================================
 module.exports = {
 
-  // MongoDB connection options TODO use system env for user and passwort
+  // MongoDB connection options
   mongo: {
-    uri: 'mongodb://acc-user:pw@ds019633.mlab.com:19633/acc-db'
+    uri: process.env.MONGOLAB_URI || 'mongodb://localhost/accserver-dev'
   },
 
   // Seed database on startup
