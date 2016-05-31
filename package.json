@@ -4,6 +4,7 @@
   "main": "server/app.js",
   "dependencies": {
     "babel": "^6.5.2",
+    "babel-cli": "^6.9.0",
     "babel-runtime": "^5.8.20",
     "bluebird": "^2.9.34",
     "body-parser": "^1.13.3",
