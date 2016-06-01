@@ -1,7 +1,7 @@
 /**
  * Using Rails-like standard naming convention for endpoints.
  * POST    /api/things              ->  create
- * GET     /api/things/:session     ->  show
+ * GET     /api/things/:userId     ->  show
  */
 
 'use strict';
@@ -44,7 +44,7 @@ exports.index = function(req, res) {
 
 // Get a WatchHistory from the DB
 exports.show = function(req, res) {
-  WatchHistory.find({'session': req.params.session})
+  WatchHistory.find({'userId': req.params.userId})
     .then(handleEntityNotFound(res))
     .then(responseWithResult(res))
     .catch(handleError(res));

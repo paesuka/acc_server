@@ -39,11 +39,11 @@ describe('WatchHistory API Router:', function() {
 
   });
 
-  describe('GET /api/v0/watchhistory:session', function() {
+  describe('GET /api/v0/watchhistory:userId', function() {
 
     it('should route to watchHistory.controller.show', function() {
       routerStub.get
-        .withArgs('/:session', 'watchHistoryCtrl.show')
+        .withArgs('/:userId', 'watchHistoryCtrl.show')
         .should.have.been.calledOnce;
     });
 

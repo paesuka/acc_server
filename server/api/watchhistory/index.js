@@ -6,7 +6,7 @@ var controller = require('./watchHistory.controller');
 var router = express.Router();
 
 router.get('/', controller.index);
-router.get('/:session', controller.show);
+router.get('/:userId', controller.show);
 router.post('/', controller.create);
 
 module.exports = router;

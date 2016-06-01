@@ -39,7 +39,7 @@ describe('WatchHistory API:', function() {
           title: testTitle,
           movieId: 1111,
           watchDate: new Date(),
-          session: 'sesstest'
+          userId: 1
         })
         .expect(201)
         .expect('Content-Type', /json/)
@@ -58,12 +58,12 @@ describe('WatchHistory API:', function() {
 
   });
 
-  describe('GET /api/v0/watchhistory/:session', function() {
+  describe('GET /api/v0/watchhistory/:userId', function() {
     var watchHistory;
 
     beforeEach(function(done) {
       request(app)
-        .get('/api/v0/watchhistory/' + newWatchItem.session)
+        .get('/api/v0/watchhistory/' + newWatchItem.userId)
 
       .expect(200)
         .expect('Content-Type', /json/)

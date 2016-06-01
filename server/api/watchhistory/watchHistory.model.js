@@ -7,7 +7,7 @@ var WatchHistorySchema = new Schema({
   title: String,
   movieId: String,
   watchDate: Date,
-  session: String
+  userId: Number
 });
 
 module.exports = mongoose.model('WatchHistory', WatchHistorySchema);
