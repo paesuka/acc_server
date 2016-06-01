@@ -41,13 +41,6 @@ var MovieSchema = new Schema({
     rating: String
   }],
   images: [Schema.Types.Mixed],
-  // images: [{
-  //   type: String,
-  //   url: String,
-  //   width: Number,
-  //   height: Number,
-  //   id: String
-  // }],
   categories: [{
     title: String,
     description: String,
