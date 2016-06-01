@@ -1,24 +1,17 @@
 # acc-server
 
-This project was generated with the [Express API Generator](https://github.com/ioneyed/generator-expressjs-api) version 0.0.1.
+[![Build Status](https://travis-ci.org/paesuka/acc_server.svg?branch=master)](https://travis-ci.org/paesuka/acc_server)
 
-## Getting Started
+<a href="https://immense-tor-76076.herokuapp.com/api/v0/watchhistory">https://immense-tor-76076.herokuapp.com/api/v0/watchhistory</a>
+<a href="https://immense-tor-76076.herokuapp.com/api/v0/movies">https://immense-tor-76076.herokuapp.com/api/v0/movies</a>
 
-### Prerequisites
+## Developing
 
-- [Git](https://git-scm.com/)
-- [Node.js and NPM](nodejs.org) >= v0.12.0
-- [Ruby](https://www.ruby-lang.org) and then `gem install sass`
-- [Grunt](http://gruntjs.com/) (`npm install --global grunt-cli`)
-- [MongoDB](https://www.mongodb.org/) - Keep a running daemon with `mongod`
+1. Run `npm install -g grunt-cli` to install necessary tools.
 
-### Developing
+2. Run `npm install` to install server dependencies.
 
-1. Run `npm install` to install server dependencies.
-
-2. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
-
-3. Run `grunt serve` to start the development server. It should automatically open the client in your browser when ready.
+3. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
 
 ## Build & development
 
