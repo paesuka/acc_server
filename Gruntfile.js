@@ -151,28 +151,6 @@ module.exports = function (grunt) {
         }
       }
     },
-
-    buildcontrol: {
-      options: {
-        dir: '<%= yeoman.dist %>',
-        commit: true,
-        push: true,
-        connectCommits: false,
-        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
-      },
-      heroku: {
-        options: {
-          remote: 'heroku',
-          branch: 'master'
-        }
-      },
-      openshift: {
-        options: {
-          remote: 'openshift',
-          branch: 'master'
-        }
-      }
-    },
     // Test settings
     karma: {
       unit: {
@@ -329,8 +307,6 @@ module.exports = function (grunt) {
           'clean:server',
           'env:all',
           'env:test',
-          'concurrent:pre',
-          'concurrent:test',
           'express:dev',
           'protractor'
         ]);
@@ -379,12 +355,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
-    'concurrent:pre',
-    'concurrent:dist',
-    'injector',
-    'wiredep:client',
-    'concat',
-    'copy:dist',
     'babel:server',
   ]);
 
