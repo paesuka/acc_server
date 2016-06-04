@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/paesuka/acc_server.svg?branch=master)](https://travis-ci.org/paesuka/acc_server)
 
-<a href="https://immense-tor-76076.herokuapp.com/api/v0/watchhistory">https://immense-tor-76076.herokuapp.com/api/v0/watchhistory</a>
+<a href="http://immense-tor-76076.herokuapp.com/api/v0/watchhistory">http://immense-tor-76076.herokuapp.com/api/v0/watchhistory</a>
 
-<a href="https://immense-tor-76076.herokuapp.com/api/v0/movies">https://immense-tor-76076.herokuapp.com/api/v0/movies</a>
+<a href="http://immense-tor-76076.herokuapp.com/api/v0/movies">http://immense-tor-76076.herokuapp.com/api/v0/movies</a>
 
 ## Developing
 
