@@ -1,12 +1,11 @@
 /**
  * Using Rails-like standard naming convention for endpoints.
- * POST    /api/things              ->  create
+ * POST    /api/things             ->  create
  * GET     /api/things/:userId     ->  show
  */
 
 'use strict';
 
-var _ = require('lodash');
 var WatchHistory = require('./watchHistory.model');
 
 function handleError(res, statusCode) {

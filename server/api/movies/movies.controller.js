@@ -5,7 +5,6 @@
 
 'use strict';
 
-var _ = require('lodash');
 var Movies = require('./movies.model');
 
 function handleError(res, statusCode) {
