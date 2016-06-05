@@ -18,7 +18,7 @@
     "ejs": "^2.3.3",
     "mongoose": "^4.1.2",
     "bluebird": "^2.9.34",
-    "connect-mongo": "^0.8.1",
+    "connect-mongo": "^1.2.0",
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
@@ -33,7 +33,6 @@
     "grunt-contrib-jshint": "~0.11.2",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "~0.6.1",
-
     "grunt-babel": "~5.0.0",
     "grunt-google-cdn": "~0.4.0",
     "grunt-jscs": "^2.1.0",
