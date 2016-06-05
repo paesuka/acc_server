@@ -2,7 +2,7 @@
 
 var mongoose = require('bluebird').promisifyAll(require('mongoose'));
 var Schema = mongoose.Schema;
-
+// for production, schema would be stripped down to only necessary attributes
 var MovieSchema = new Schema({
   title: String,
   description: String,
