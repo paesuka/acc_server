@@ -115,9 +115,9 @@ Request body:
 ```
 ## Developing
 
-Make sure you are able to execute the command 'make' for node-gyp rebuilds with node version >= 4.x.
-For Ubuntu based systems, run 'sudo apt-get install build-essential g++'.
-For RedHat based systems, run 'sudo dnf install make automake gcc gcc-c++ kernel-devel'.
+Make sure you are able to execute the command `make` for node-gyp rebuilds with node version >= 4.x.
+For Ubuntu based systems, run `sudo apt-get install build-essential g++`.
+For RedHat based systems, run `sudo dnf install make automake gcc gcc-c++ kernel-devel`.
 For OS X install the Xcode Command Line Tools and accept the license!
 
 1. Run `npm install -g grunt-cli` to install necessary tools.
