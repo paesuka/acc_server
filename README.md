@@ -6,7 +6,7 @@
 
 - [GET  /movies](#get-movies)
 - [GET  /watchhistory](#get-watchhistory)
-- [GET  /watchhistory/[userId]](#get-watchhistoryuserId)
+- [GET  /watchhistory/[userId]](#get-watchhistoryuserid)
 - [POST /watchhistory](#post-watchhistory)
 
 ## GET /movies
@@ -14,7 +14,7 @@
 Example: <http://immense-tor-76076.herokuapp.com/api/v0/movies>
 
 Response body:
-
+```
 [{
   title: String,
   description: String,
@@ -68,46 +68,46 @@ Response body:
   }],
   id: String
 }]
-
+```
 ## GET /watchhistory
 
 Example: <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory>
 
 Response body:
-
+```
 [{
   title: String,
   movieId: String,
   watchDate: Date,
   userId: Number
 }]
-
+```
 ## GET /watchhistory/[userId]
 
 Example: <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory/1465116060635>
 
 Response body:
-
+```
 [{
   title: String,
   movieId: String,
   watchDate: Date,
   userId: Number
 }]
-
+```
 ## POST /watchHistory
 
 Example: POST <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory>
 
 Request body:
-
+```
 [{
   title: String,
   movieId: String,
   watchDate: Date,
   userId: Number
 }]
-
+```
 ## Developing
 
 Make sure you are able to execute the command 'make' for node-gyp rebuilds with node version >= 4.x.
