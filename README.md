@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/paesuka/acc_server.svg?branch=master)](https://travis-ci.org/paesuka/acc_server)
 
-* [API Resources](#apiresources)
+* [API Resources](#api-resources)
 * [Developing](#developing)
 * [Build & development](#build--development)
 * [Testing](#testing)
