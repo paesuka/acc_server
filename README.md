@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/paesuka/acc_server.svg?branch=master)](https://travis-ci.org/paesuka/acc_server)
 
+* [API Resources](#apiresources)
+* [Developing](#developing)
+* [Build & development](#build--development)
+* [Testing](#testing)
+
 ## API Resources
 
 - [GET  /movies](#get-movies)
@@ -9,7 +14,7 @@
 - [GET  /watchhistory/[userId]](#get-watchhistoryuserid)
 - [POST /watchhistory](#post-watchhistory)
 
-## GET /movies
+### GET /movies
 
 Example: <http://immense-tor-76076.herokuapp.com/api/v0/movies>
 
@@ -69,7 +74,7 @@ Response body:
   id: String
 }]
 ```
-## GET /watchhistory
+### GET /watchhistory
 
 Example: <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory>
 
@@ -82,7 +87,7 @@ Response body:
   userId: Number
 }]
 ```
-## GET /watchhistory/[userId]
+### GET /watchhistory/[userId]
 
 Example: <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory/1465116060635>
 
@@ -95,7 +100,7 @@ Response body:
   userId: Number
 }]
 ```
-## POST /watchHistory
+### POST /watchhistory
 
 Example: POST <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory>
 
