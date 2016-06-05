@@ -16,7 +16,7 @@
 
 ### GET /movies
 
-Example: <http://immense-tor-76076.herokuapp.com/api/v0/movies>
+Example: <https://immense-tor-76076.herokuapp.com/api/v0/movies>
 
 Response body:
 ```
@@ -76,7 +76,7 @@ Response body:
 ```
 ### GET /watchhistory
 
-Example: <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory>
+Example: <https://immense-tor-76076.herokuapp.com/api/v0/watchhistory>
 
 Response body:
 ```
@@ -89,7 +89,7 @@ Response body:
 ```
 ### GET /watchhistory/[userId]
 
-Example: <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory/1465116060635>
+Example: <https://immense-tor-76076.herokuapp.com/api/v0/watchhistory/1465116060635>
 
 Response body:
 ```
@@ -102,7 +102,7 @@ Response body:
 ```
 ### POST /watchhistory
 
-Example: POST <http://immense-tor-76076.herokuapp.com/api/v0/watchhistory>
+Example: POST <https://immense-tor-76076.herokuapp.com/api/v0/watchhistory>
 
 Request body:
 ```
