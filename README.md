@@ -8,6 +8,10 @@
 
 ## Developing
 
+Make sure you are able to execute the command 'make' for node-gyp rebuilds with node version >= 4.x.
+For Ubuntu based systems, run 'sudo apt-get install build-essential g++'.
+For OS X install the Xcode Command Line Tools and accept the license!
+
 1. Run `npm install -g grunt-cli` to install necessary tools.
 
 2. Run `npm install` to install server dependencies.
