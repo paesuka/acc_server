@@ -1,7 +1,8 @@
 /**
  * Using Rails-like standard naming convention for endpoints.
- * POST    /api/things             ->  create
- * GET     /api/things/:userId     ->  show
+ * GET     /api/watchhistory             ->  index
+ * POST    /api/watchhistory             ->  create
+ * GET     /api/watchhistory/:userId     ->  show
  */
 
 'use strict';
